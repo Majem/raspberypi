@@ -1,0 +1,1 @@
+delay = 0.5blueLedPin = 40yellowLedPin = 38redLedPin = 36greeLedPin = 32ledsArray = [blueLedPin, yellowLedPin, redLedPin, greeLedPin]AZURE_CONNECTION_STRING = "HostName=RpiSmartDom.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=p1AZP2raRmRCaA/XTk3XF5w5mKJzK0wpRMpjrDs8Yds="AZURE_DEVICE_ID = "Rpi4"

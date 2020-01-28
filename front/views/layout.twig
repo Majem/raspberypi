@@ -1,0 +1,189 @@
+<html class=" " lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/gentelella/images/favicon.ico" type="image/ico">
+  <title>Gentelella Alela! | </title>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+  <link href="/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+  <link href="/gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="/gentelella/vendors/nprogress/nprogress.css" rel="stylesheet">
+
+  <link href="/gentelella/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+  <link href="/gentelella/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+
+  <link href="/gentelella/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet">
+
+  <link href="/gentelella/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+  <link href="/gentelella/build/css/custom.min.css" rel="stylesheet">
+  <script></script></head>
+<body class="nav-md" cz-shortcut-listen="true">
+<div class="container body">
+  <div class="main_container">
+    <div class="col-md-3 left_col">
+      <div class="left_col scroll-view">
+        <div class="navbar nav_title" style="border: 0;">
+          <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>SmartDom!</span></a>
+        </div>
+        <div class="clearfix"></div>
+
+        <br>
+
+        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+          <div class="menu_section">
+            <h3>Ostatnia aktualizacja : <h1 id="lastUpdate"></h1></h3>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+    <div class="right_col" role="main" style="min-height: 1664px;">
+
+
+      <div class="row">
+        <div class="col-md-12 col-sm-12 ">
+          <div class="dashboard_graph">
+            <div class="row x_title">
+              <div class="col-md-6">
+                <h3>Pogoda </h3><small>Dane z ostatnich 24 godzin</small></h3>
+              </div>
+              <div class="col-md-6">
+
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-9 ">
+              <div id="chart_plot_01" class="demo-placeholder" style="padding: 0px; position: relative;">
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3  bg-white">
+              <div class="x_title">
+                <h2>Top Campaign Performance</h2>
+                <div class="clearfix"></div>
+              </div>
+              <div class="col-md-12 col-sm-12 ">
+                <div>
+                  <h3>Aktualna pogoda : <span id="currentTemp"></span> °</h3>
+                  <div class="">
+                    <div class="progress progress_sm" style="width: 76%;">
+                      <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="80" style="width: 80%;" aria-valuenow="79"></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+    </div>
+
+
+    <footer>
+      <div class="pull-right">
+        Mateusz Maciejewski, Bartosz Firka - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+      </div>
+      <div class="clearfix"></div>
+    </footer>
+
+  </div>
+</div>
+
+<script src="/gentelella/vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/fastclick/lib/fastclick.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/nprogress/nprogress.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/Chart.js/dist/Chart.min.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/gauge.js/dist/gauge.min.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/iCheck/icheck.min.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/skycons/skycons.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/Flot/jquery.flot.js" type="text/javascript"></script>
+<script src="/gentelella/vendors/Flot/jquery.flot.pie.js" type="text/javascript"></script>
+<script src="/gentelella/vendors/Flot/jquery.flot.time.js" type="text/javascript"></script>
+<script src="/gentelella/vendors/Flot/jquery.flot.stack.js" type="text/javascript"></script>
+<script src="/gentelella/vendors/Flot/jquery.flot.resize.js" type="text/javascript"></script>
+
+<script src="/gentelella/vendors/flot.orderbars/js/jquery.flot.orderBars.js" type="text/javascript"></script>
+<script src="/gentelella/vendors/flot-spline/js/jquery.flot.spline.min.js" type="text/javascript"></script>
+<script src="/gentelella/vendors/flot.curvedlines/curvedLines.js" type="text/javascript"></script>
+<script src="/gentelellag/vendors/morris.js/morris.min.js" type="d988eeeac526e4ee08522043-text/javascript"></script>
+
+<script src="/gentelella/vendors/DateJS/build/date.js" type="text/javascript"></script>
+
+<script src="../vendors/jqvmap/dist/jquery.vmap.js" type="text/javascript"></script>
+<script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js" type="text/javascript"></script>
+<script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js" type="text/javascript"></script>
+
+<script src="../vendors/moment/min/moment.min.js" type="text/javascript"></script>
+<script src="../vendors/bootstrap-daterangepicker/daterangepicker.js" type="text/javascript"></script>
+
+<script src="../build/js/custom.min.js" type="text/javascript"></script>
+<script>
+  $(document).ready(function () {
+
+    $.get("/data", function(data, status){
+
+      if(typeof data.last_update !== 'undefined') {
+        $('#lastUpdate').text(data.last_update);
+      }
+
+
+      if(typeof data.current_temperature !== 'undefined') {
+        $('#currentTemp').text(data.current_temperature);
+      }
+
+      if(typeof data.day_data !== 'undefined') {
+        new Morris.Line({
+          // ID of the element in which to draw the chart.
+          element: 'chart_plot_01',
+          // Chart data records -- each entry in this array corresponds to a point on
+          // the chart.
+          data: data.day_data,
+          // The name of the data record attribute that contains x-values.
+          xkey: 'hour',
+          // A list of names of data record attributes that contain y-values.
+          ykeys: ['value'],
+          // Labels for the ykeys -- will be displayed when you hover over the
+          // chart.
+          labels: ['Stopni celsjusza']
+        });
+      }
+
+      console.log(data);
+    });
+
+  });
+
+</script>
+
+<div class="jqvmap-label" style="display: none;"></div><div class="daterangepicker ltr show-ranges opensleft"><div class="ranges"><ul><li data-range-key="Today">Today</li><li data-range-key="Yesterday">Yesterday</li><li data-range-key="Last 7 Days">Last 7 Days</li><li data-range-key="Last 30 Days">Last 30 Days</li><li data-range-key="This Month">This Month</li><li data-range-key="Last Month">Last Month</li><li data-range-key="Custom">Custom</li></ul></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-default btn-small" type="button">Clear</button><button class="applyBtn btn btn-default btn-small btn-primary" disabled="disabled" type="button">Submit</button> </div></div></body></html>
